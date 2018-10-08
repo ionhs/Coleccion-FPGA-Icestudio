@@ -4,7 +4,7 @@ En este repositorio iremos creando una colección con los componentes de electr�
 
 Durante estos pocos años que han empezado las FPGA Libres, miembros de la comunidad [FPGAwars](https://groups.google.com/forum/#!forum/fpga-wars-explorando-el-lado-libre) han ido creando componentes o bloques. Pero ante la falta de una colección que reuna los componentes indispensables para impartir la asignatura de Electrónica Digital o Equipos Microprogramables, se quiere realizar esa labor en este repositorio. De esta manera el profesorado podrá empezar con una librería controlada y estandarizada de los componentes más importantes.
 
-En este momento estamos identificando y clasificando los componentes básicos más importantes, para luego ir creando una colección básica de bloque y ejemplos. Obijuan está realizando unos tutoriales estupendos sobre la tecnología de las FPGA Libres y la electrónica digital para que gente sin conocimientos pueda empezar con la tecnlogía. Por ese motivo vamos a centrarnos en la gente que tiene ciertos conocimientos en electrónica digital pero no en FPGA Libres.
+En este momento estamos identificando y clasificando los componentes básicos más importantes, para luego ir creando una colección básica de bloque y ejemplos. Obijuan está realizando un [Tutorial de Electrónica Digital para makers con FPGAs Libres](https://github.com/Obijuan/digital-electronics-with-open-FPGAs-tutorial/wiki) para que gente sin conocimientos pueda empezar con la tecnlogía. Por ese motivo vamos a centrarnos en la gente que tiene ciertos conocimientos en electrónica digital pero no en FPGA Libres.
 
 
 
