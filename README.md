@@ -39,8 +39,11 @@ La lista de componentes sobre la que estamos trabajando actualmente:
   - Señales periódicas
 - Perifericos
   - Servomotores
-  - RGB
+  - Diodos RGB
   - Comunicación serie
+  - Teclado matricial
+  - Sonidos
+  - Pantallas
 
 Este trabajo lo estamos realizando entre Ion Hernandez de [CIFP Don Bosco](http://www.donbosco.hezkuntza.net/web/guest/inicio1) y Iñaki Aranburu de [La Salle Berrozpe](http://www.lasalleberrozpe.eus/web/eu). Somos profesores de Formación Profesional del País Vasco del ciclo formativo de Mantenimiento Electrónico de grado superior, dentro de un proyecto educativo más amplio, con el objetivo de difundir la tecnología de las FPGAs y la robótica. Su realización está siendo posible gracias al apoyo de la Viceconsejeria del Gobierno Vasco y la coordinación de [Tknika](https://www.tknika.eus/).
 
