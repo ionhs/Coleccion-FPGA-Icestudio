@@ -12,7 +12,7 @@ Hay 3 manera para poder crear una colección:
 2. Descargar una plantilla o modificar una colección previamente creada.
 3. Crear a mano la estructura.
 
-Es importante recordar que una vez creada la colección hay que comprimir toda la estructura en un archivo ZIP, con un nombre sin carácteres raros (como las tildes) para poder añadirla al Icestudio.
+Es importante recordar que una vez creada la colección **hay que comprimir toda la estructura en un archivo ZIP**, con un nombre sin carácteres raros (como las tildes) para poder añadirla al Icestudio.
 
 ## 1-Icestudio collections manager
 
@@ -29,17 +29,25 @@ Una solución más de andar por casa pero más sencilla es obtener una colecció
 
 ## 3-Crear a mano la estructura
 
-Es una estructura muy simple en la que creando unos pocos archivos y carpetas vacias la estructura está lista.
+Es una estructura muy simple en la que creando unos pocos archivos y carpetas vacias, la estructura está lista.
 
 ```
 ├── blocks/		 "Directorio donde se guardan los bloques"
 ├── examples/	 "Directorio donde se guardan ejemplos de aplicación de bloques"
-├── locale/
+├── locale/		 "Contiene información sobre las traducciones de bloques y ejemplos"
 ├── LICENSE		 "Archivo donde se describe el tipo de licencia que tiene la colección"
-├── package.json
+├── package.json "Archivo que contiene información sobre las colecciones"
 └── README.md	 "Archivo de presentación de la colección"
 ```
 
+https://icestudio.readthedocs.io/en/latest/source/howto.html#load-external-collections
 
+Una vez creada la colección hay que comprimirla a ZIP y cargarla mediante **Herramientas > Colecciones > Añadir**. De esta manera podemos ir cargando distintas colecciones pero solo podemos tener activa una cada vez mediante **Seleccionar > Colección**.
 
-https://github.com/FPGAwars/icm
+Las colecciones del Icestudio una vez Añadidas se guardan descomprimidas en la ruta (la carpeta icestudio estará oculta):
+
+Windows: **C:\Users\USERNAME\icestudio\collections**
+
+Linux: **Home\icestudio\collections**
+
+De esta manera se puede acceder a los componentes de las colecciones e ir modificándolas.
