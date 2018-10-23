@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="-252 400.9 100.89405 54.50032"
+   width="100.895"
+   height="54.5"
+   version="1.1"
+   id="svg10"
+   sodipodi:docname="nand.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs14" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview12"
+     showgrid="false"
+     inkscape:zoom="4.8918237"
+     inkscape:cx="71.84232"
+     inkscape:cy="31.283102"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg10" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-width:2.23864532;stroke-linejoin:round"
+     d="m -202.98584,454.22501 h -26.96224 v -52.0611 h 26.96224 c 0,0 24.47482,2.41354 24.47482,25.72764 0,23.31296 -24.47482,26.33346 -24.47482,26.33346 z"
+     id="path2" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-width:2.23864532;stroke-linecap:round"
+     d="m -250.72467,413.82389 h 20.71251 m -20.71251,27.74352 h 20.71251 m 63.9995,-14.00103 h 13.81748"
+     id="path4" />
+  <text
+     style="font-weight:400;font-size:12.31590748px;line-height:125%;font-family:sans-serif;letter-spacing:0;word-spacing:0;fill:#0000ff;stroke-width:0.27983066"
+     x="-225.82283"
+     y="432.15469"
+     font-weight="400"
+     font-size="44.012"
+     letter-spacing="0"
+     word-spacing="0"
+     id="text8">
+    <tspan
+       x="-225.82283"
+       y="432.15469"
+       style="font-weight:700;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.27983066"
+       font-weight="700"
+       id="tspan6">NAND</tspan>
+  </text>
+  <ellipse
+     style="fill:none;stroke:#000000;stroke-width:2.23864532;stroke-linecap:round;stroke-linejoin:round"
+     cx="-172.25487"
+     cy="427.57138"
+     rx="5.9864168"
+     ry="6.1263323"
+     id="ellipse10" />
+</svg>

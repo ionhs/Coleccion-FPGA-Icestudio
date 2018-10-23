@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="51"
+   width="101.139"
+   version="1"
+   id="svg12"
+   sodipodi:docname="xor.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata18">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs16" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview14"
+     showgrid="false"
+     height="1e-005px"
+     inkscape:zoom="5.1453156"
+     inkscape:cx="69.224198"
+     inkscape:cy="24.38231"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg12" />
+  <path
+     d="M 46.282086,49.945506 H 22.283481 c 0,0 7.99971,-11.214095 8.195058,-24.78869 C 30.674412,11.582748 22.089717,1.3530297 22.089717,1.3530297 L 46.426816,1.2491613 C 58.670895,1.7627035 73.817225,15.337301 78.865123,25.945056 70.270674,43.740556 54.569939,49.615973 46.282086,49.945506 Z"
+     id="path2"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-width:2.10900235;stroke-linecap:round;stroke-linejoin:round" />
+  <path
+     d="M 1.0695502,12.661767 H 27.327952 M 1.2873047,38.464622 H 27.908455 M 78.710639,26.26457 h 21.372111"
+     id="path4"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-width:2.10900235;stroke-linecap:round" />
+  <text
+     x="34.01059"
+     y="30.586708"
+     font-size="58.24"
+     font-weight="400"
+     style="font-weight:400;font-size:15.35354042px;line-height:125%;font-family:sans-serif;letter-spacing:0;word-spacing:0;fill:#0000ff;stroke-width:0.26362529"
+     letter-spacing="0"
+     word-spacing="0"
+     id="text8">
+    <tspan
+       x="34.01059"
+       y="30.586708"
+       font-weight="700"
+       id="tspan6"
+       style="font-weight:700;stroke-width:0.26362529">XOR</tspan>
+  </text>
+  <path
+     d="m 14.320414,49.766504 c 0,0 7.99971,-11.214095 8.195057,-24.78869 C 22.711081,11.403747 14.12665,1.1740281 14.12665,1.1740281"
+     id="path10"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-width:2.10900235;stroke-linecap:round;stroke-linejoin:round" />
+</svg>
