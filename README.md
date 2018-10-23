@@ -23,12 +23,11 @@ La lista de componentes sobre la que estamos trabajando actualmente:
   - NAND
   - NOR
   - XOR
-- Circuitos Combinacionales
+- Circuitos Combinacionales/Aritméticos
   - Codificadores/Decodificadores
   - Multiplexores/Demultiplexores
   - Comparadores
   - Tablas de Estados
-- Circuitos Aritméticos
   - Sumadores 4 bits
 - Circuitos Secuenciales
   - Biestable RS
@@ -37,6 +36,9 @@ La lista de componentes sobre la que estamos trabajando actualmente:
   - Contadores
   - Registros de desplazamiento
   - Señales periódicas
+- Microcontroladores
+  - Picorv32
+  - SIMPLEZ F  
 - Perifericos
   - Servomotores
   - Diodos RGB
