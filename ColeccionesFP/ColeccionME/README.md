@@ -4,7 +4,7 @@
 
 | Componente | Download |                 SVG                 |            Autor            |     Info      |
 | :--------: | :------: | :---------------------------------: | :-------------------------: | :-----------: |
-|    AND     |          | ![](..\blocks\1-Puertas\svg\and.svg) | Jesús Arroyo, Juan González | Versión 1.0.1 |
+|    AND     |          | ![](.\blocks\1-Puertas\svg\and.svg) | Jesús Arroyo, Juan González | Versión 1.0.1 |
 |     Or     |          |                                     |                             |               |
 |    Not     |          |                                     |                             |               |
 |    Nand    |          |                                     |                             |               |
