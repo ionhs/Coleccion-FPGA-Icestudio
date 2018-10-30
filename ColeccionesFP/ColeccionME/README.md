@@ -6,7 +6,7 @@
 | :--------: | :----------------------------------------------------------: | :--------------------------------: | :-------------------------: | :-----------: |
 |    AND     |              ![](blocks/1-Puertas/svg/and.svg)               | ![](blocks/1-Puertas/svg/and.svg)  | Jesús Arroyo, Juan González | Versión 1.0.1 |
 |     OR     | ![](C:\Users\ionhs\Documents\IceStudio\Coleccion-FPGA-Icestudio\Multimedia\path3017a.png) |  ![](blocks/1-Puertas/svg/or.svg)  | Jesús Arroyo, Juan González | Versión 1.0.1 |
-|    NOT     | [<img src="C:\Users\ionhs\Documents\IceStudio\Coleccion-FPGA-Icestudio\Multimedia\path3017a.png">](C:\Users\ionhs\Documents\IceStudio\Coleccion-FPGA-Icestudio\ColeccionesFP\ColeccionME\blocks\1-Puertas\not.ice) | ![](blocks/1-Puertas/svg/not.svg)  | Jesús Arroyo, Juan González | Versión 1.0.3 |
+|    NOT     | [<img src="C:\Users\ionhs\Documents\IceStudio\Coleccion-FPGA-Icestudio\Multimedia\path3017a.png">](https://github.com/ionhsFP/Coleccion-FPGA-Icestudio/blob/master/Multimedia/path3017a.png) | ![](blocks/1-Puertas/svg/not.svg)  | Jesús Arroyo, Juan González | Versión 1.0.3 |
 |    NAND    |                                                              | ![](blocks/1-Puertas/svg/nand.svg) | Jesús Arroyo, Juan González | Versión 1.0.1 |
 |    NOR     |                                                              | ![](blocks/1-Puertas/svg/nor.svg)  | Jesús Arroyo, Juan González | Versión 1.0.1 |
 |    XOR     |                                                              | ![](blocks/1-Puertas/svg/xor.svg)  | Jesús Arroyo, Juan González | Versión 1.0.1 |
