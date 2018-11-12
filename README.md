@@ -29,6 +29,7 @@ La lista de componentes sobre la que estamos trabajando actualmente:
   - Comparadores
   - Tablas de Estados
   - Sumadores 4 bits
+  - ALU
 - Circuitos Secuenciales
   - Biestable RS
   - Biestable D
