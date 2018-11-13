@@ -14,11 +14,11 @@
 
 ### Circuitos Combinacionales y Aritméticos
 
-| Componente | Download | SVG  | Autor | Info |
-| :--------: | :------: | :--: | :---: | :--: |
-|            |          |      |       |      |
-|            |          |      |       |      |
-|            |          |      |       |      |
+| Componente | Download | SVG  | Autor |                             Info                             |
+| :--------: | :------: | :--: | :---: | :----------------------------------------------------------: |
+|            |          |      |       |                                                              |
+|            |          |      |       |                                                              |
+|    ALU     |          |      |       | https://github.com/minicatsCB/FPGA  https://twitter.com/Totodilesi/status/1061605017445117954 |
 
 ### Circuitos Secuenciales
 
@@ -38,9 +38,9 @@
 
 ### Periféricos
 
-| Componente | Download | SVG  | Autor | Info |
-| :--------: | :------: | :--: | :---: | :--: |
-|            |          |      |       |      |
-|            |          |      |       |      |
-|            |          |      |       |      |
+| Componente | Download | SVG  | Autor |                             Info                             |
+| :--------: | :------: | :--: | :---: | :----------------------------------------------------------: |
+|            |          |      |       |                                                              |
+|   Sonido   |          |      |       | https://groups.google.com/forum/#!msg/fpga-wars-explorando-el-lado-libre/5b0ULNjZZKA/QcV-lF0bCAAJ |
+| Motor PaP  |          |      |       | https://github.com/jospicant/IceStudio/tree/master/Ice40/Robot/Modules   https://github.com/Obijuan/escornabot-fpga/tree/master/Escornabot-collection |
 
