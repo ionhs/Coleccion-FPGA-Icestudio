@@ -14,11 +14,15 @@
 
 ### Circuitos Combinacionales y Aritméticos
 
-| Componente | Download | SVG  | Autor |                             Info                             |
-| :--------: | :------: | :--: | :---: | :----------------------------------------------------------: |
-|            |          |      |       |                                                              |
-|            |          |      |       |                                                              |
-|    ALU     |          |      |       | https://github.com/minicatsCB/FPGA  https://twitter.com/Totodilesi/status/1061605017445117954 |
+|                          Componente                          |                         Descripción                          |                             SVG                              |       Autor       |                             Info                             |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :---------------: | :----------------------------------------------------------: |
+| [cod-02-1](blocks/2-Combinacionales/1-Codificadores/cod-02-1.ice) | Codificador de 2 a 1 (Decimal a Binario) con prioridad. La salida zero se activa cuando ninguna entrada está activada | ![](blocks/2-Combinacionales/1-Codificadores/svg/cod-dec-bin.svg) |   Juan González   |                         Versión 0.1                          |
+| [cod-04-2](blocks/2-Combinacionales/1-Codificadores/cod-04-2.ice) | Codificador de 4 a 2 (Decimal a Binario) con prioridad. La salida zero se activa cuando ninguna entrada está activada | ![](blocks/2-Combinacionales/1-Codificadores/svg/cod-dec-bin.svg) |   Juan González   |                         Versión 0.1                          |
+| [cod-04-2-bus](blocks/2-Combinacionales/1-Codificadores/cod-04-2-bus.ice) | Codificador de 4 a 2 (Decimal a Binario), con prioridad. La salida zero se activa cuando ninguna entrada está activad. Entradas y salidas de buses | ![](blocks/2-Combinacionales/1-Codificadores/svg/cod-dec-bin.svg) |   Juan González   |                         Versión 0.1                          |
+| [cod-08-3-bus](blocks/2-Combinacionales/1-Codificadores/cod-08-3.ice) | Codificador de 8 a 3 (Decimal a Binario), con prioridad. La salida zero se activa cuando ninguna entrada está activad. Entradas y salidas de buses | ![](blocks/2-Combinacionales/1-Codificadores/svg/cod-dec-bin.svg) |   Juan González   |                         Versión 0.1                          |
+| [cod-16-4-bus](blocks/2-Combinacionales/1-Codificadores/cod-16-4.ice) | Codificador de 16 a 4 (Decimal a Binario), con prioridad. La salida zero se activa cuando ninguna entrada está activad. Entradas y salidas de buses | ![](blocks/2-Combinacionales/1-Codificadores/svg/cod-dec-bin.svg) |   Ion Hernandez   |                         Versión 0.1                          |
+|                          decod-1-02                          | Decodificador de 1 a 2 (Binario a Decimal) de lógica positiva |                                                              |   Juan González   |                         Versión 0.1                          |
+|                             ALU                              |                                                              |                                                              | María Isabel Díaz | https://github.com/minicatsCB/FPGA  https://twitter.com/Totodilesi/status/1061605017445117954 |
 
 ### Circuitos Secuenciales
 
