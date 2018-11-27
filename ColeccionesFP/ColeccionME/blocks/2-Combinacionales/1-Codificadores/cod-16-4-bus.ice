@@ -20,23 +20,23 @@
             "pins": [
               {
                 "index": "3",
-                "name": "",
-                "value": ""
+                "name": "LED3",
+                "value": "42"
               },
               {
                 "index": "2",
-                "name": "",
-                "value": ""
+                "name": "LED2",
+                "value": "43"
               },
               {
                 "index": "1",
-                "name": "",
-                "value": ""
+                "name": "LED1",
+                "value": "44"
               },
               {
                 "index": "0",
-                "name": "",
-                "value": ""
+                "name": "LED0",
+                "value": "45"
               }
             ],
             "virtual": true
@@ -55,83 +55,83 @@
             "pins": [
               {
                 "index": "15",
-                "name": "",
-                "value": ""
+                "name": "D5",
+                "value": "7"
               },
               {
                 "index": "14",
-                "name": "",
-                "value": ""
+                "name": "D4",
+                "value": "8"
               },
               {
                 "index": "13",
-                "name": "",
-                "value": ""
+                "name": "D3",
+                "value": "3"
               },
               {
                 "index": "12",
-                "name": "",
-                "value": ""
+                "name": "D2",
+                "value": "4"
               },
               {
                 "index": "11",
-                "name": "",
-                "value": ""
+                "name": "D1",
+                "value": "1"
               },
               {
                 "index": "10",
-                "name": "",
-                "value": ""
+                "name": "D0",
+                "value": "2"
               },
               {
                 "index": "9",
-                "name": "",
-                "value": ""
+                "name": "SW2",
+                "value": "33"
               },
               {
                 "index": "8",
-                "name": "",
-                "value": ""
+                "name": "SW1",
+                "value": "34"
               },
               {
                 "index": "7",
-                "name": "",
-                "value": ""
+                "name": "D13",
+                "value": "64"
               },
               {
                 "index": "6",
-                "name": "",
-                "value": ""
+                "name": "D12",
+                "value": "63"
               },
               {
                 "index": "5",
-                "name": "",
-                "value": ""
+                "name": "D11",
+                "value": "21"
               },
               {
                 "index": "4",
-                "name": "",
-                "value": ""
+                "name": "D10",
+                "value": "22"
               },
               {
                 "index": "3",
-                "name": "",
-                "value": ""
+                "name": "D9",
+                "value": "19"
               },
               {
                 "index": "2",
-                "name": "",
-                "value": ""
+                "name": "D8",
+                "value": "20"
               },
               {
                 "index": "1",
-                "name": "",
-                "value": ""
+                "name": "D7",
+                "value": "9"
               },
               {
                 "index": "0",
-                "name": "",
-                "value": ""
+                "name": "D6",
+                "value": "10"
               }
             ],
             "virtual": true,
@@ -150,8 +150,8 @@
             "pins": [
               {
                 "index": "0",
-                "name": "",
-                "value": 0
+                "name": "LED6",
+                "value": "38"
               }
             ],
             "virtual": true

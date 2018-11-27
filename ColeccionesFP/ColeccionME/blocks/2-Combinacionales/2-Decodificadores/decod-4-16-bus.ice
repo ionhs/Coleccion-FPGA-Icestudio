@@ -1,7 +1,7 @@
 {
   "version": "1.2",
   "package": {
-    "name": "Decodificador-3-08",
+    "name": "Decodificador-3-08-bus",
     "version": "0.1",
     "description": "Decodificador de 4 a 8 (Binario a Decimal) de lógica positiva, con salida en bus",
     "author": "Ion Hernandez",
@@ -12,26 +12,31 @@
     "graph": {
       "blocks": [
         {
-          "id": "e2678e0d-6f57-4276-baa9-ea527d3ca609",
+          "id": "09a9d51e-a137-4b9a-8fdd-488b4315ec42",
           "type": "basic.input",
           "data": {
             "name": "y",
-            "range": "[2:0]",
+            "range": "[3:0]",
             "pins": [
               {
+                "index": "3",
+                "name": "D13",
+                "value": "64"
+              },
+              {
                 "index": "2",
-                "name": "",
-                "value": 0
+                "name": "D12",
+                "value": "63"
               },
               {
                 "index": "1",
-                "name": "",
-                "value": 0
+                "name": "D11",
+                "value": "21"
               },
               {
                 "index": "0",
-                "name": "",
-                "value": 0
+                "name": "D10",
+                "value": "22"
               }
             ],
             "virtual": true,
@@ -43,57 +48,97 @@
           }
         },
         {
-          "id": "264d575b-b982-47a4-9323-7172a8c2f27d",
+          "id": "e91d31b3-e8fb-45ed-b81c-f571cb50328b",
           "type": "basic.output",
           "data": {
             "name": "i",
-            "range": "[7:0]",
+            "range": "[15:0]",
             "pins": [
               {
+                "index": "15",
+                "name": "D7",
+                "value": "9"
+              },
+              {
+                "index": "14",
+                "name": "D6",
+                "value": "10"
+              },
+              {
+                "index": "13",
+                "name": "D5",
+                "value": "7"
+              },
+              {
+                "index": "12",
+                "name": "D4",
+                "value": "8"
+              },
+              {
+                "index": "11",
+                "name": "D3",
+                "value": "3"
+              },
+              {
+                "index": "10",
+                "name": "D2",
+                "value": "4"
+              },
+              {
+                "index": "9",
+                "name": "D1",
+                "value": "1"
+              },
+              {
+                "index": "8",
+                "name": "D0",
+                "value": "2"
+              },
+              {
                 "index": "7",
-                "name": "",
-                "value": ""
+                "name": "LED7",
+                "value": "37"
               },
               {
                 "index": "6",
-                "name": "",
-                "value": ""
+                "name": "LED6",
+                "value": "38"
               },
               {
                 "index": "5",
-                "name": "",
-                "value": ""
+                "name": "LED5",
+                "value": "39"
               },
               {
                 "index": "4",
-                "name": "",
-                "value": ""
+                "name": "LED4",
+                "value": "41"
               },
               {
                 "index": "3",
-                "name": "",
-                "value": ""
+                "name": "LED3",
+                "value": "42"
               },
               {
                 "index": "2",
-                "name": "",
-                "value": ""
+                "name": "LED2",
+                "value": "43"
               },
               {
                 "index": "1",
-                "name": "",
-                "value": ""
+                "name": "LED1",
+                "value": "44"
               },
               {
                 "index": "0",
-                "name": "",
-                "value": ""
+                "name": "LED0",
+                "value": "45"
               }
             ],
             "virtual": true
           },
           "position": {
-            "x": 664,
+            "x": 528,
             "y": 256
           }
         },
@@ -101,46 +146,46 @@
           "id": "8442894d-b93c-4aff-a7cb-dea7176ac3db",
           "type": "basic.code",
           "data": {
-            "code": "reg i;\n\nalways @(*) \nbegin\n\tcase(y)\n      8'h1: o = 3'b000;\n      8'h2: o = 3'b001;\n      8'h4: o = 3'b010;\n      8'h8: o = 3'b011;\n      8'h16: o = 3'b100;\n      8'h32: o = 3'b101;\n      8'h64: o = 3'b110;\n      8'h128: o = 3'b111;\n\tendcase\nend",
+            "code": "assign i = 1 << y;\n                       \n",
             "params": [],
             "ports": {
               "in": [
                 {
                   "name": "y",
-                  "range": "[2:0]",
-                  "size": 3
+                  "range": "[3:0]",
+                  "size": 4
                 }
               ],
               "out": [
                 {
                   "name": "i",
-                  "range": "[7:0]",
-                  "size": 8
+                  "range": "[15:0]",
+                  "size": 16
                 }
               ]
             }
           },
           "position": {
             "x": 184,
-            "y": 152
+            "y": 224
           },
           "size": {
-            "width": 416,
-            "height": 272
+            "width": 264,
+            "height": 120
           }
         }
       ],
       "wires": [
         {
           "source": {
-            "block": "e2678e0d-6f57-4276-baa9-ea527d3ca609",
+            "block": "09a9d51e-a137-4b9a-8fdd-488b4315ec42",
             "port": "out"
           },
           "target": {
             "block": "8442894d-b93c-4aff-a7cb-dea7176ac3db",
             "port": "y"
           },
-          "size": 3
+          "size": 4
         },
         {
           "source": {
@@ -148,10 +193,10 @@
             "port": "i"
           },
           "target": {
-            "block": "264d575b-b982-47a4-9323-7172a8c2f27d",
+            "block": "e91d31b3-e8fb-45ed-b81c-f571cb50328b",
             "port": "in"
           },
-          "size": 8
+          "size": 16
         }
       ]
     }
