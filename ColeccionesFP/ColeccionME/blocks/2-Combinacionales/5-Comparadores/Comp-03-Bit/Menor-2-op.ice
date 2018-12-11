@@ -1,28 +1,23 @@
 {
   "version": "1.2",
   "package": {
-    "name": "Comparador-4bits",
+    "name": "Menor-2-op-3Bits",
     "version": "0.1",
-    "description": "Comrpador de numeros de 4 bits. Buses",
+    "description": "Comparador menor que, de 2 operandos de 3 bits",
     "author": "Juan Gonzalez-Gomez (Obijuan)",
-    "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22202.569%22%20height=%22155.159%22%20viewBox=%220%200%20189.90867%20145.462%22%3E%3Cpath%20fill=%22none%22%20d=%22M0%200h189.909v145.462H-.001z%22/%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22158.092%22%20y=%22472.377%22%20font-weight=%22400%22%20font-size=%22145.87%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%20transform=%22translate(-123.04%20-359.442)%22%3E%3Ctspan%20x=%22158.092%22%20y=%22472.377%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%3E=%3C/tspan%3E%3C/text%3E%3C/svg%3E"
+    "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2248.9%22%20height=%2224.208%22%20viewBox=%220%200%2012.93815%206.4051131%22%3E%3Cg%20word-spacing=%220%22%20letter-spacing=%220%22%20font-weight=%22400%22%20font-family=%22sans-serif%22%20fill=%22#00f%22%20stroke-width=%22.206%22%3E%3Ctext%20font-size=%22132.193%22%20y=%228.385%22%20x=%227.279%22%20style=%22line-height:125%25%22%20stroke-width=%22.078%22%20transform=%22translate(-2.603%20-1.644)%22%3E%3Ctspan%20font-weight=%22700%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20y=%228.385%22%20x=%227.279%22%20font-size=%2211.289%22%20stroke-width=%22.283%22%3E&lt;%3C/tspan%3E%3C/text%3E%3Ctext%20font-size=%2267.97%22%20y=%226.811%22%20x=%222.3%22%20style=%22line-height:125%25%22%20stroke-width=%22.04%22%20transform=%22translate(-2.603%20-1.644)%22%3E%3Ctspan%20font-weight=%22700%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20y=%226.811%22%20x=%222.3%22%20font-size=%227.056%22%20stroke-width=%22.146%22%3Ea%3C/tspan%3E%3C/text%3E%3C/g%3E%3C/svg%3E"
   },
   "design": {
     "board": "alhambra-ii",
     "graph": {
       "blocks": [
         {
-          "id": "10c237b6-9580-4109-a2a8-00967c29f80a",
+          "id": "0867b1bc-1cc5-4707-8ddb-40d0318d237c",
           "type": "basic.input",
           "data": {
             "name": "a",
-            "range": "[3:0]",
+            "range": "[2:0]",
             "pins": [
-              {
-                "index": "3",
-                "name": "",
-                "value": 0
-              },
               {
                 "index": "2",
                 "name": "",
@@ -43,12 +38,12 @@
             "clock": false
           },
           "position": {
-            "x": 80,
-            "y": 160
+            "x": 152,
+            "y": 104
           }
         },
         {
-          "id": "8a0dbb82-d3ea-4650-9e67-a58c0f9df4e3",
+          "id": "0344dacc-8583-456b-b377-8cb4ab97cf94",
           "type": "basic.output",
           "data": {
             "name": "",
@@ -62,22 +57,17 @@
             "virtual": true
           },
           "position": {
-            "x": 816,
-            "y": 224
+            "x": 616,
+            "y": 160
           }
         },
         {
-          "id": "f634195f-6cea-4c56-a3dd-221056e01497",
+          "id": "02895c3c-06cb-49d7-9e3f-012ee448d996",
           "type": "basic.input",
           "data": {
             "name": "b",
-            "range": "[3:0]",
+            "range": "[2:0]",
             "pins": [
-              {
-                "index": "3",
-                "name": "",
-                "value": 0
-              },
               {
                 "index": "2",
                 "name": "",
@@ -98,78 +88,78 @@
             "clock": false
           },
           "position": {
-            "x": 80,
-            "y": 288
+            "x": 152,
+            "y": 200
           }
         },
         {
-          "id": "4a6d5b38-c8fb-48bb-be93-c741f789b68d",
+          "id": "9c811723-c900-4ceb-9989-036b071ee3fe",
           "type": "basic.code",
           "data": {
-            "code": "\nassign c = (a==b) ? 1 : 0;\n\n \n ",
+            "code": "assign eq = (a < b);",
             "params": [],
             "ports": {
               "in": [
                 {
                   "name": "a",
-                  "range": "[3:0]",
-                  "size": 4
+                  "range": "[2:0]",
+                  "size": 3
                 },
                 {
                   "name": "b",
-                  "range": "[3:0]",
-                  "size": 4
+                  "range": "[2:0]",
+                  "size": 3
                 }
               ],
               "out": [
                 {
-                  "name": "c"
+                  "name": "eq"
                 }
               ]
             }
           },
           "position": {
-            "x": 328,
-            "y": 128
+            "x": 344,
+            "y": 160
           },
           "size": {
-            "width": 384,
-            "height": 256
+            "width": 224,
+            "height": 64
           }
         }
       ],
       "wires": [
         {
           "source": {
-            "block": "4a6d5b38-c8fb-48bb-be93-c741f789b68d",
-            "port": "c"
+            "block": "9c811723-c900-4ceb-9989-036b071ee3fe",
+            "port": "eq"
           },
           "target": {
-            "block": "8a0dbb82-d3ea-4650-9e67-a58c0f9df4e3",
+            "block": "0344dacc-8583-456b-b377-8cb4ab97cf94",
             "port": "in"
           }
         },
         {
           "source": {
-            "block": "10c237b6-9580-4109-a2a8-00967c29f80a",
+            "block": "02895c3c-06cb-49d7-9e3f-012ee448d996",
             "port": "out"
           },
           "target": {
-            "block": "4a6d5b38-c8fb-48bb-be93-c741f789b68d",
-            "port": "a"
+            "block": "9c811723-c900-4ceb-9989-036b071ee3fe",
+            "port": "b"
           },
-          "size": 4
+          "size": 3
         },
         {
           "source": {
-            "block": "f634195f-6cea-4c56-a3dd-221056e01497",
+            "block": "0867b1bc-1cc5-4707-8ddb-40d0318d237c",
             "port": "out"
           },
           "target": {
-            "block": "4a6d5b38-c8fb-48bb-be93-c741f789b68d",
-            "port": "b"
+            "block": "9c811723-c900-4ceb-9989-036b071ee3fe",
+            "port": "a"
           },
-          "size": 4
+          "size": 3
         }
       ]
     }

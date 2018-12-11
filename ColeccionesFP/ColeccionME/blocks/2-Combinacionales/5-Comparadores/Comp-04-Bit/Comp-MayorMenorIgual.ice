@@ -1,11 +1,11 @@
 {
   "version": "1.2",
   "package": {
-    "name": "Comparador-4bitsMayorMenorIgual",
+    "name": "Comp-2-op><=4Bits",
     "version": "0.1",
-    "description": "Comrpador de numeros de 4 bits >=<. Buses",
+    "description": "Comparador de igualdad, mayor o menor de 2 operandos de 4 bits",
     "author": "Ion Hernandez",
-    "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22202.569%22%20height=%22155.159%22%20viewBox=%220%200%20189.90867%20145.462%22%3E%3Cpath%20fill=%22none%22%20d=%22M0%200h189.909v145.462H-.001z%22/%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22158.092%22%20y=%22472.377%22%20font-weight=%22400%22%20font-size=%22145.87%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%20transform=%22translate(-123.04%20-359.442)%22%3E%3Ctspan%20x=%22158.092%22%20y=%22472.377%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%3E=%3C/tspan%3E%3C/text%3E%3C/svg%3E"
+    "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2239.039%22%20height=%2266.113%22%20viewBox=%220%200%2036.59916%2061.981203%22%3E%3Cpath%20d=%22M-5.822-12.727h189.909v145.462H-5.823z%22%20fill=%22none%22/%3E%3Ctext%20style=%22line-height:1.25%22%20x=%229.101%22%20y=%2242.964%22%20font-weight=%22400%22%20font-size=%2237.5%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20stroke-width=%22.938%22%3E%3Ctspan%20x=%229.101%22%20y=%2242.964%22%20fill=%22#00f%22%3E=%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:1.25%22%20x=%229.101%22%20y=%2222.008%22%20font-weight=%22400%22%20font-size=%2237.5%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%20stroke-width=%22.938%22%3E%3Ctspan%20x=%229.101%22%20y=%2222.008%22%3E&gt;%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:1.25%22%20x=%229.101%22%20y=%2263.92%22%20font-weight=%22400%22%20font-size=%2237.5%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20stroke-width=%22.938%22%3E%3Ctspan%20x=%229.101%22%20y=%2263.92%22%20fill=%22#00f%22%3E&lt;%3C/tspan%3E%3C/text%3E%3C/svg%3E"
   },
   "design": {
     "board": "alhambra-ii",
@@ -144,7 +144,7 @@
           "id": "4a6d5b38-c8fb-48bb-be93-c741f789b68d",
           "type": "basic.code",
           "data": {
-            "code": "assign c = (a>b) ? 1 : 0;\nassign d = (a==b) ? 1 : 0;\nassign e = (a<b) ? 1 : 0;\n\n \n ",
+            "code": "assign c = (a>b);\nassign d = (a==b);\nassign e = (a<b);",
             "params": [],
             "ports": {
               "in": [
