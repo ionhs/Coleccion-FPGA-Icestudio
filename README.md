@@ -14,40 +14,17 @@ Pero ante la falta de una colección que reuna los componentes indispensables pa
 
 En este momento estamos identificando y clasificando los componentes básicos más importantes, para luego ir creando una colección básica de bloque y ejemplos. Obijuan está realizando un [Tutorial de Electrónica Digital para makers con FPGAs Libres](https://github.com/Obijuan/digital-electronics-with-open-FPGAs-tutorial/wiki) para que gente sin conocimientos pueda empezar con la tecnlogía. Por ese motivo vamos a centrarnos en la gente que tiene ciertos conocimientos en electrónica digital pero no en FPGA Libres.
 
-La lista de componentes sobre la que estamos trabajando actualmente:
+La lista de componentes sobre la que estamos trabajando actualmente es la [ColeccionME](https://github.com/ionhsFP/Coleccion-FPGA-Icestudio/tree/master/ColeccionesFP/ColeccionME) donde se pueden encontrar distintos componentes como los siguientes:
 
 - Puertas Lógicas
-  - AND
-  - OR
-  - NOT
-  - NAND
-  - NOR
-  - XOR
 - Circuitos Combinacionales/Aritméticos
-  - Codificadores/Decodificadores
-  - Multiplexores/Demultiplexores
-  - Comparadores
-  - Tablas de Estados
-  - Sumadores 4 bits
-  - ALU
 - Circuitos Secuenciales
-  - Biestable RS
-  - Biestable D
-  - Biestable T
-  - Contadores
-  - Registros de desplazamiento
-  - Señales periódicas
-- Microcontroladores
-  - Picorv32
-  - SIMPLEZ F  
 - Perifericos
-  - Servomotores
-  - Diodos RGB
-  - Comunicación serie
-  - Teclado matricial
-  - Sonidos
-  - Pantallas
-  - Motor PaP
+
+Algunos componentes han sido creados enteros o parcialmente para esta colección aunque la mayoría de los componentes se han recogidos de las siguientes fuentes:
+
+- [Colecciones para el tutorial Electrónica digital para Makers con FPGAs Libres](https://github.com/Obijuan/Academia-Jedi-Hw) realizada por Juan Gonzales
+- [Jedi Collection](https://github.com/FPGAwars/Collection-Jedi) por Juan Gonzalez
 
 Este trabajo lo estamos realizando entre Ion Hernandez de [CIFP Don Bosco](http://www.donbosco.hezkuntza.net/web/guest/inicio1) y Iñaki Aranburu de [La Salle Berrozpe](http://www.lasalleberrozpe.eus/web/eu). Somos profesores de Formación Profesional del País Vasco del ciclo formativo de Mantenimiento Electrónico de grado superior, dentro de un proyecto educativo más amplio, con el objetivo de difundir la tecnología de las FPGAs y la robótica. Su realización está siendo posible gracias al apoyo de la Viceconsejeria del Gobierno Vasco y la coordinación de [Tknika](https://www.tknika.eus/).
 
