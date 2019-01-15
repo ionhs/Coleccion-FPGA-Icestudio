@@ -1,4 +1,4 @@
-# Lista de componentes de ColeccionFP
+# Lista de componentes de ColeccionME
 
 ### Puertas Lógicas
 
@@ -81,9 +81,9 @@
 | [timer-msec](blocks/3-Secuenciales/1-Multivibr/1-Monoestables/1-Timers/2-timer-msec.ice) | Temporizador en milisegundos. La señal p está activa durante el tiempo indicado. Por tic se emite un tic al finalizar |    ![](blocks/3-Secuenciales/svg/timer-msec.svg)     | Juan González |  Versión 0.1  |
 | [timer-usec](blocks/3-Secuenciales/1-Multivibr/1-Monoestables/1-Timers/3-timer-usec.ice) | Temporizador en microsegundos. La señal p está activa durante el tiempo indicado. Por tic se emite un tic al finalizar |    ![](blocks/3-Secuenciales/svg/timer-usec.svg)     | Juan González |  Versión 0.1  |
 | [timer-usec](blocks/3-Secuenciales/1-Multivibr/1-Monoestables/1-Timers/4-timer-system.ice) | Temporizador en tics. La señal p está activa durante los tics indicados. ov se emite un tic al finalizar |   ![](blocks/3-Secuenciales/svg/timer-system.svg)    | Juan González |  Versión 0.1  |
-| [Antirrebote](blocks/3-Secuenciales/1-Multivibr/1-Monoestables/2-Antirrebote.ice) |        Quita el rebote de los interruptores mecánicos        |    ![](blocks/3-Secuenciales/svg/antirrebote.svg)    | Juan González | Versión 1.0.0 |
-| [Bajada](blocks/3-Secuenciales/1-Multivibr/1-Monoestables/3-Flancos-Tics/Bajada.ice) | Detector de flanco de bajada. Emite un tic cuando detecta un flanco descendente |      ![](blocks/3-Secuenciales/svg/Bajada.svg)       | Juan González |  Versión 0.1  |
-| [Subida](blocks/3-Secuenciales/1-Multivibr/1-Monoestables/3-Flancos-Tics/Subida.ice) | Detector de flanco de subida. Emite un tic cuando detecta un flanco ascendente |      ![](blocks/3-Secuenciales/svg/Subida.svg)       | Juan González |  Versión 0.1  |
+| [Antirrebote](blocks/3-Secuenciales/1-Multivibr/1-Monoestables/3-Antirrebote.ice) |        Quita el rebote de los interruptores mecánicos        |    ![](blocks/3-Secuenciales/svg/Antirrebote.svg)    | Juan González | Versión 1.0.0 |
+| [Bajada](blocks/3-Secuenciales/1-Multivibr/1-Monoestables/2-Flancos-Tics/Bajada.ice) | Detector de flanco de bajada. Emite un tic cuando detecta un flanco descendente |      ![](blocks/3-Secuenciales/svg/Bajada.svg)       | Juan González |  Versión 0.1  |
+| [Subida](blocks/3-Secuenciales/1-Multivibr/1-Monoestables/2-Flancos-Tics/Subida.ice) | Detector de flanco de subida. Emite un tic cuando detecta un flanco ascendente |      ![](blocks/3-Secuenciales/svg/Subida.svg)       | Juan González |  Versión 0.1  |
 | [Pulsador-tic](blocks/3-Secuenciales/1-Multivibr/1-Monoestables/4-Pulsador-tic.ice) | Detección de pulsaciónes mecánicas. Emite un tic cada vez que se aprieta el pulsador |   ![](blocks/3-Secuenciales/svg/Pulsador-tic.svg)    | Juan González |  Versión 0.1  |
 | [Sync](blocks/3-Secuenciales/1-Multivibr/1-Monoestables/5-Sync.ice) |  Sincronizar las entradas de datos con el reloj del sistema  |       ![](blocks/3-Secuenciales/svg/Sync.svg)        | Juan González |  Versión 0.1  |
 | [Set-Reset](blocks/3-Secuenciales/3-Secuenciales/1-Multivibr/2-Biestables/1-Set-Reset.ice) | Biestable con entradas de Set y Reset síncronas, para poner y quitar notaficaciones de eventos |     ![](blocks/3-Secuenciales/svg/Set-Reset.svg)     | Juan González |  Versión 0.1  |
@@ -98,7 +98,15 @@
 | [Corazon-tic-Sec](blocks/3-Secuenciales/3-Astables/Tics/02-Heart-Sec.ice) | Corazón de bombeo de tics con un periodo paramétrico de segundos (por defecto 1 segundo) |  ![](blocks/3-Secuenciales/svg/Corazon-tic-Sec.svg)  | Juan González |  Versión 0.1  |
 | [Corazon-tic-ms](blocks/3-Secuenciales/3-Astables/Tics/04-Heart-ms.ice) | Corazón de bombeo de tics con un periodo paramétrico de milisegundos (por defecto 1 milisegundo) |  ![](blocks/3-Secuenciales/svg/Corazon-tic-ms.svg)   | Juan González |  Versión 0.1  |
 | [Corazon-tic-us](blocks/3-Secuenciales/3-Astables/Tics/06-Heart-us.ice) | Corazón de bombeo de tics con un periodo paramétrico de microsegundos (por defecto 1 microsegundo) |  ![](blocks/3-Secuenciales/svg/Corazon-tic-us.svg)   | Juan González |  Versión 0.1  |
-| [Corazon-tic-us](blocks/3-Secuenciales/3-Astables/Tics/08-Heart-tics.ice) | Corazón de bombeo de tics, cuyo periodo está especificado en tics también (por defecto 10 tics) |   ![](blocks/3-Secuenciales/svg/Corazon-tics.svg)    | Juan González |  Versión 0.1  |
+| [Corazon-tic](blocks/3-Secuenciales/3-Astables/Tics/08-Heart-tics.ice) | Corazón de bombeo de tics, cuyo periodo está especificado en tics (por defecto 10 tics) |   ![](blocks/3-Secuenciales/svg/Corazon-tics.svg)    | Juan González |  Versión 0.1  |
+| [Contador-2bits-up-rst-system](blocks/3-Secuenciales/2-Contadores/02-bits/cont-up-system.ice) | Contador del sistema, módulo M, ascendente, de 2 bits, con reset |   ![](blocks/3-Secuenciales/svg/UpCounterSys.svg)    | Juan González |  Versión 0.1  |
+| [Contador-2bits-up-rst](blocks/3-Secuenciales/2-Contadores/02-bits/cont-up.ice) | Contador de tics módulo M, ascendente, de 2 bits, con reset  |     ![](blocks/3-Secuenciales/svg/UpCounter.svg)     | Juan González |  Versión 0.1  |
+| [Contador-3bits-up-rst-system](blocks/3-Secuenciales/2-Contadores/03-bits/cont-up-system.ice) | Contador del sistema, módulo M, ascendente, de 3 bits, con reset |   ![](blocks/3-Secuenciales/svg/UpCounterSys.svg)    | Juan González |  Versión 0.1  |
+| [Contador-3bits-up-rst](blocks/3-Secuenciales/2-Contadores/03-bits/cont-up.ice) | Contador de tics módulo M, ascendente, de 3 bits, con reset  |     ![](blocks/3-Secuenciales/svg/UpCounter.svg)     | Juan González |  Versión 0.1  |
+| [Contador-4bits-up-rst-system](blocks/3-Secuenciales/2-Contadores/04-bits/cont-up-system.ice) | Contador del sistema, módulo M, ascendente, de 4 bits, con reset |   ![](blocks/3-Secuenciales/svg/UpCounterSys.svg)    | Juan González |  Versión 0.1  |
+| [Contador-4bits-up-rst](blocks/3-Secuenciales/2-Contadores/04-bits/cont-up.ice) | Contador de tics módulo M, ascendente, de 4 bits, con reset  |     ![](blocks/3-Secuenciales/svg/UpCounter.svg)     | Juan González |  Versión 0.1  |
+| [Contador-8bits-up-rst-system](blocks/3-Secuenciales/2-Contadores/08-bits/cont-up-system.ice) | Contador del sistema, módulo M, ascendente, de 8 bits, con reset |   ![](blocks/3-Secuenciales/svg/UpCounterSys.svg)    | Juan González |  Versión 0.1  |
+| [Contador-8bits-up-rst](blocks/3-Secuenciales/2-Contadores/08-bits/cont-up.ice) | Contador de tics módulo M, ascendente, de 8 bits, con reset  |     ![](blocks/3-Secuenciales/svg/UpCounter.svg)     | Juan González |  Versión 0.1  |
 
 ### Microcontroladores
 
