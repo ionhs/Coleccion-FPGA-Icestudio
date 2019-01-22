@@ -71,11 +71,11 @@
 | [Menor-1-op-8Bits](blocks/2-Combinacionales/5-Comparadores/Comp-08-Bit/Menor-1-op.ice) | Comparador menor que, de 1 operando de 8 bits, respecto a una constante predefinida 0 |      ![](blocks/2-Combinacionales/svg/comp-menor.svg)      | Juan González  |  Versión 0.1  |
 | [Menor-2-op-8Bits](blocks/2-Combinacionales/5-Comparadores/Comp-08-Bit/Menor-2-op.ice) |        Comparador menor que, de 2 operandos de 8 bits        |      ![](blocks/2-Combinacionales/svg/comp-menor.svg)      | Juan González  |  Versión 0.1  |
 | [Comp-2-op><=8Bits](blocks/2-Combinacionales/5-Comparadores/Comp-08-Bit/Comp-MayorMenorIgual.ice) | Comparador de igualdad, mayor o menor de 2 operandos de 8 bits | ![](blocks/2-Combinacionales/svg/comp-igualmenormayor.svg) | Ion Hernandez  |  Versión 0.1  |
-| [mi-tablaX-X](blocks/2-Combinacionales/6-TablasEstados/6-TablasEstados.zip) | Conjunto de tablas (64 en total) preparadas para configurar una función lógica combinacional (tabla de la verdad). Están clasificadas por el número de entradas (1-8) y por el número de salidas (1-8) |      ![](blocks/2-Combinacionales/svg/Tabla_bin.svg)       | IceFactory 0.1 |  Versión 0.1  |
+| [mi-tablaX-X](blocks/2-Combinacionales/6-TablasEstados/6-TablasEstados.zip) | Conjunto de tablas (64 en total) preparadas para configurar una función lógica combinacional (tabla de la verdad). Están clasificadas por el número de entradas (1-8) y por el número de salidas (1-8) |      ![](blocks/2-Combinacionales/svg/Tabla_Bin.svg)       | IceFactory 0.1 |  Versión 0.1  |
 
 ### Circuitos Secuenciales
 
-|                          Componente                          |                           Download                           |                         SVG                          |     Autor     |     Info      |
+|                          Componente                          |                         Descripción                          |                         SVG                          |     Autor     |     Info      |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :--------------------------------------------------: | :-----------: | :-----------: |
 | [timer-sec](blocks/3-Secuenciales/1-Multivib/1-Monoestables/1-Timers/1-timer-sec.ice) | Temporizador en segundos. La señal p está activa durante el tiempo indicado. Por tic se emite un tic al finalizar |     ![](blocks/3-Secuenciales/svg/timer-sec.svg)     | Juan González |  Versión 0.1  |
 | [timer-msec](blocks/3-Secuenciales/1-Multivibr/1-Monoestables/1-Timers/2-timer-msec.ice) | Temporizador en milisegundos. La señal p está activa durante el tiempo indicado. Por tic se emite un tic al finalizar |    ![](blocks/3-Secuenciales/svg/timer-msec.svg)     | Juan González |  Versión 0.1  |
@@ -107,20 +107,16 @@
 | [Contador-4bits-up-rst](blocks/3-Secuenciales/2-Contadores/04-bits/cont-up.ice) | Contador de tics módulo M, ascendente, de 4 bits, con reset  |     ![](blocks/3-Secuenciales/svg/UpCounter.svg)     | Juan González |  Versión 0.1  |
 | [Contador-8bits-up-rst-system](blocks/3-Secuenciales/2-Contadores/08-bits/cont-up-system.ice) | Contador del sistema, módulo M, ascendente, de 8 bits, con reset |   ![](blocks/3-Secuenciales/svg/UpCounterSys.svg)    | Juan González |  Versión 0.1  |
 | [Contador-8bits-up-rst](blocks/3-Secuenciales/2-Contadores/08-bits/cont-up.ice) | Contador de tics módulo M, ascendente, de 8 bits, con reset  |     ![](blocks/3-Secuenciales/svg/UpCounter.svg)     | Juan González |  Versión 0.1  |
-
-### Microcontroladores
-
-| Componente | Download | SVG  | Autor | Info |
-| :--------: | :------: | :--: | :---: | :--: |
-|            |          |      |       |      |
-|            |          |      |       |      |
-|            |          |      |       |      |
+| [Registro-PIPO-8Bits](blocks/3-Secuenciales/3-Registros/08-bits/1-RegParal.ice) |   Registro paralelo/paralelo de 8 bits, carga mediante tic   |     ![](blocks/3-Secuenciales/svg/RegParal.svg)      | Juan González |  Versión 0.1  |
+| [Registro-SIPO/SISO-8Bits](blocks/3-Secuenciales/3-Registros/08-bits/2-Reg-SIPO.ice) | Registro serie/paralelo y serie/serie de 8 bits, desplazamiento de entrada a salida mediante tics |      ![](blocks/3-Secuenciales/svg/RegSePa.svg)      | Juan González |  Versión 0.1  |
+| [Registro-Universal-8Bits](blocks/3-Secuenciales/3-Registros/08-bits/3-Reg-Univ.ice) | Registro universal serie paralelo de 8 bits, desplazamiento de entrada a salida mediante tics |      ![](blocks/3-Secuenciales/svg/RegSePa.svg)      | Juan González |  Versión 0.1  |
 
 ### Periféricos
 
-| Componente | Download | SVG  | Autor |                             Info                             |
-| :--------: | :------: | :--: | :---: | :----------------------------------------------------------: |
-|            |          |      |       |                                                              |
-|   Sonido   |          |      |       | https://groups.google.com/forum/#!msg/fpga-wars-explorando-el-lado-libre/5b0ULNjZZKA/QcV-lF0bCAAJ |
-| Motor PaP  |          |      |       | https://github.com/jospicant/IceStudio/tree/master/Ice40/Robot/Modules   https://github.com/Obijuan/escornabot-fpga/tree/master/Escornabot-collection |
+|                          Componente                          |                         Descripción                          |                             SVG                              |            Autor            |    Info     |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :-------------------------: | :---------: |
+| [ServoBit-90-Tower-Pro-SG90](blocks/3-Secuenciales/4-Perifericos/1-Servomotor/TowerPro-SG90/Servobit-90.ice) | ServoBit para micrservo TowerPro-SG90. Controlador de 1 bit para mover un servo a 2 posiciones. El ángulo entre una posición y otra es de 90 grados | ![](blocks/4-Perifericos/svg/ServoBit-90-Tower-Pro-SG90.svg) | Jesús Arroyo, Juan González | Versión 0.1 |
+| [ServoBit-Tower-Pro-SG90](blocks/3-Secuenciales/4-Perifericos/1-Servomotor/TowerPro-SG90/Servobit.ice) | ServoBit para micrservo TowerPro-SG90. Controlador de 1 bit para mover un servo a 2 posiciones. El ángulo entre una posición y otra la define el usuario |  ![](blocks/4-Perifericos/svg/ServoBit-Tower-Pro-SG90.svg)   | Jesús Arroyo, Juan González | Versión 0.1 |
+| [Sonido](https://groups.google.com/forum/#!msg/fpga-wars-explorando-el-lado-libre/5b0ULNjZZKA/QcV-lF0bCAAJ) |                                                              |                                                              |                             |             |
+| [Motor PaP](https://github.com/jospicant/IceStudio/tree/master/Ice40/Robot/Modules   https://github.com/Obijuan/escornabot-fpga/tree/master/Escornabot-collection) |                                                              |                                                              |                             |             |
 
