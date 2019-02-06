@@ -30,6 +30,6 @@ Algunos componentes han sido creados enteros o parcialmente para esta colección
 
 Este trabajo lo estamos realizando entre [Ion Hernandez](https://twitter.com/ionhs_FP) de [CIFP Don Bosco](http://www.donbosco.hezkuntza.net/web/guest/inicio1) y Iñaki Aranburu de [La Salle Berrozpe](http://www.lasalleberrozpe.eus/web/eu). Somos profesores de Formación Profesional del País Vasco del ciclo formativo de Mantenimiento Electrónico de grado superior, dentro de un proyecto educativo más amplio, con el objetivo de difundir la tecnología de las FPGAs y la robótica. Su realización está siendo posible gracias al apoyo de la Viceconsejeria del Gobierno Vasco y la coordinación de [Tknika](https://www.tknika.eus/).
 
-![Logo Don Bosco](multimedia/Logo_guztiak.png)
+![Logo Don Bosco](Multimedia/Logo_guztiak.png)
 
 Aunque estemos nosotros 2 trabajando en ello, el repositorio es abierto y estamos encantados de recibir ideas y mejoras (Issues) de cualquiera de la comunidad para que podamos estudiar su aplicación.
